@@ -56,15 +56,20 @@ tip_percent_bill = str(int(tip_percent*100)) + "%"
 qc_taxrate = 0.09975
 qc_taxed_amount = round(fl_cost * qc_taxrate, 2)
 str_qctx =  "$" + str(qc_taxed_amount)
+
 ca_taxrate = 0.05
 ca_taxed_amount = round(fl_cost * ca_taxrate, 2)
 str_catx =  "$" + str(ca_taxed_amount)
+
 total_taxed = round(fl_cost + qc_taxed_amount + ca_taxed_amount, 2)
 str_total_taxed = "$" + str(total_taxed)
+
 amount_tipped = round(fl_cost * tip_percent, 2)
 str_amount_tipped = "$" + str(amount_tipped)
+
 grand_total = round(total_taxed + amount_tipped, 2)
 str_grand_total = "$" + str(grand_total)
+
 per_person = round(grand_total / diners, 2)
 str_per_person = "$" + str(per_person)
 
