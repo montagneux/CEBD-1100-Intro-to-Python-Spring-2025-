@@ -1,0 +1,27 @@
+Sales Report
+------------
+
+Produced on: 18-04-2025
+
+Channels analysed: Offline, Online
+
+Total, x channels
+
+Offline
+
+	Total units sold:				125735652
+	Total revenue per unit:			$265.55
+	Total revenue of sales:			$33389306691.35
+
+Online
+
+	Total units sold:				123486326
+	Total revenue per unit:			$266.3
+	Total revenue of sales:			$32884469188.42
+
+Grand totals
+
+	Total units sold:				249221978
+	Total revenue per unit:			$265.92
+	Total revenue of sales:			$66273775879.77
+
